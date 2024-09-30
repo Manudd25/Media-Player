@@ -110,11 +110,9 @@ meter::-webkit-meter-optimum-value {
     box-shadow: -5px 5px 10px #d0d0d0, 5px -5px 10px #f0f0f0;
 }
 
-.section-control div:nth-child(2) {
-    color: #18e3f1;
-    border-radius: 23px;
-    background: #e0e0e0;
-    box-shadow: inset -5px 5px 10px #d0d0d0, inset 5px -5px 10px #f0f0f0;
+.section-control div:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 25px #c0c0c0, 5px -5px 10px #f0f0f0; 
 }
 
 hr {
